@@ -1,0 +1,66 @@
+body {
+    background-image: linear-gradient(to right,lightgreen,lightblue);
+}
+.container{
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-around;
+}
+.add{
+    background-color: brown;
+    border: brown;
+    font-size: 0.5cm;
+    font: italic;
+}
+.todolist{
+    list-style-type: none;
+}
+.di {
+    color:black;
+    border: black 2px;
+    background-color: lightblue;
+    margin:0 450px;   
+    font-size: 0.5cm;
+    font-weight: bolder;
+    display:flex;
+    
+}
+.di li{
+    flex:1;
+    transition:all 1s ease;
+}
+.styl{
+    background-color: red;
+    border: darkred;
+    box-shadow: -1px 1px 5px rgb(211, 139, 134) ;
+}
+.com{
+    background-color: green;
+    border: lightgreen;
+    box-shadow: -1px 1px 5px rgb(125, 180, 125) ;
+}
+.compl li{
+    text-decoration: line-through;
+    opacity: 0.2;
+}
+.fall{
+    transform: translateY(3cm) rotateZ(30deg);
+    transition-duration: 0.5s;
+    opacity: 0;
+}
+.filt{
+    background-color: blueviolet;
+    border:blue;
+    font-size: 0.5cm;
+}
+button:hover{
+ font-size:0.55cm;
+ color:white;
+}
+input{
+border:transparent grey;
+border-radius:14px;
+width:20%;
+height:34px;
+}
